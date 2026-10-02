@@ -1,0 +1,71 @@
+/* HomePage */
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "inter", sans-serif;
+}
+
+/* Header*/
+header{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.lista-header{
+    font-size: 28px;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+
+}
+
+.header-buttons{
+    display: flex;
+    
+    justify-content: end;
+}
+
+buttons
+
+
+img{
+    width: 230PX;
+    height: 150px;
+}
+
+/* footer*/
+footer { 
+    background-color: rgb(2, 22, 125);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.descricao {
+    padding-top: 80px;
+    color: aliceblue;
+    font-size: 30px;
+    font: 700;
+}
+
+.lista-contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+}   
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
